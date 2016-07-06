@@ -8,7 +8,7 @@ import javax.persistence.Table;
  * Resources entity. @author MyEclipse Persistence Tools
  */
 @Entity
-@Table(name = "resources", catalog = "shiro")
+@Table(name = "resources")
 public class Resources extends AbstractResources implements
 		java.io.Serializable {
 

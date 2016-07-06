@@ -8,7 +8,7 @@ import javax.persistence.Table;
  * Role entity. @author MyEclipse Persistence Tools
  */
 @Entity
-@Table(name = "role", catalog = "shiro")
+@Table(name = "role")
 public class Role extends AbstractRole implements java.io.Serializable {
 
 	// Constructors

@@ -1,0 +1,1 @@
+insert into `user` ( `address`, `available`, `email`, `login_name`, `password`, `telephone`, `true_name`) values('中国安徽亳州涡阳高公','','2452403243@qq.com','shasha','123456','18356095840','沙沙');

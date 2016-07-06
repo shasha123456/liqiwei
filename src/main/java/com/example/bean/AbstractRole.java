@@ -90,7 +90,7 @@ public abstract class AbstractRole implements java.io.Serializable {
 	}
 
 	@ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	@JoinTable(name = "role_resources", catalog = "shiro", joinColumns = { @JoinColumn(name = "roleId", nullable = false, updatable = false) }, inverseJoinColumns = { @JoinColumn(name = "resource", nullable = false, updatable = false) })
+	@JoinTable(name = "role_resources", joinColumns = { @JoinColumn(name = "roleId", nullable = false, updatable = false) }, inverseJoinColumns = { @JoinColumn(name = "resource", nullable = false, updatable = false) })
 	public Set<Resources> getResourceses() {
 		return this.resourceses;
 	}
